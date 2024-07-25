@@ -265,6 +265,7 @@ section.projects{
     background-color: #FFF6E9;
     border: 2px solid gray;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .jsProject a{
@@ -628,6 +629,10 @@ section.projects{
     section.intro{
         padding: 100px 30px 50px;
         /* padding: 30px; */
+    }
+
+    .navFlex.links{
+        gap: 20px;
     }
 
     #nametag a{
