@@ -69,6 +69,7 @@
 .jsImage img{
     height: 100%;
     width: 100%;
+    border-radius: 5px;
 }
 
 .eachJsProject h2{
@@ -125,6 +126,7 @@
 .reactImage img{
     height: 100%;
     width: 100%;
+    border-radius: 5px;
 }
 
 .eachReactProject h2{
