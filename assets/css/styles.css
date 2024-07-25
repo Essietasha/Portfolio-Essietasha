@@ -156,7 +156,6 @@ section.projects{
     color: #111;
     font-weight: bold;
     font-size: 12px;
-    padding-left: 10px;
     padding-bottom: 50px;
     overflow: hidden;
     width: 100%;
@@ -178,14 +177,18 @@ section.projects{
 #javascript{
     padding-top: 10px;
     cursor: pointer;
+    padding-left: 10px;
 }
 
 #react{
-    background-color: #171b20;
-    color: #ffffff;
     padding-left: 10px;
     padding-top: 10px;
     cursor: pointer;
+}
+
+.active{
+    background-color: #171b20;
+    color: #ffffff; 
 }
 
 .jsReactFlex{
