@@ -625,7 +625,12 @@ section.projects{
     }
 }
 
+
 @media (max-width:360px) {
+    section.intro{
+        padding: 100px 30px 50px;
+    }
+
     .navFlex.links{
         gap: 10px;
     }
@@ -637,10 +642,106 @@ section.projects{
     #navDivEl a{
         font-size: 10px;
     }
+
+    .introName{
+        font-size: 32px;
+        letter-spacing: 1rem;
+    }
+
+    .hrFlex hr{
+        height: 150px;
+    }
+    
+    .hrFlex p{
+        font-size: 16px;
+        padding-right: 100px;
+    }
+
+    .socials{
+        margin-top: 2px;
+    }
+    
+    .navDownArrow .navCircle{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .fa-angle-down{
+        font-size: 20px;
+    }
+
+    section.projects{
+        margin-top: 20px;
+    }
+    
+    .projectsGrid{
+        grid-template-columns: 30% 70%;
+    }
+    
+    .dots{
+        gap: 5px;
+    }
+    
+    .javascriptProjects h2{
+        font-size: 2rem;
+    }
+    
+    .design{
+        margin: 30px 10px;
+        font-size: 1rem;
+    }
+    
+    .viewAllBtn button{
+        padding: 10px;
+    }
+
+    .jsGrid{
+        display: block;
+    }
+
+    
+    .reactProjectsGrid{
+        display: block;
+    }
+    
+    .reactProjects h1{
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+    
+    #about p{
+        padding: 20px 30px;
+        font-size: 16px;
+    }
+      
+    #contact{
+        padding: 5rem 3rem;
+    }
+    
+    #contact h1{
+        font-size: 7rem;
+    }
+    
+    
+    #contact p{
+        font-size: 12px;
+    }
+    
+    #contact .socials{
+        margin-bottom: 20px;
+    }
+     
+    .navigateUp{
+        width: 40px;
+        height: 40px;
+    }
 }
 
 
 @media (min-width: 360px) and (max-width: 420px) {
+    section.intro{
+        padding: 100px 30px 50px;
+    }
     
     .navFlex.links{
         gap: 10px;
@@ -653,26 +754,104 @@ section.projects{
     #navDivEl a{
         font-size: 11px;
     }
-}
 
+    .introName{
+        font-size: 32px;
+        letter-spacing: 1rem;
+    }
 
-@media (min-width: 420px) and (max-width: 479px) {
+    .hrFlex hr{
+        height: 150px;
+    }
     
-    .navFlex.links{
-        gap: 20px;
+    .hrFlex p{
+        font-size: 16px;
+        padding-right: 100px;
     }
 
-    #nametag a{
-       font-size: 25px;
+    .socials{
+        margin-top: 2px;
+    }
+    
+    .navDownArrow .navCircle{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .fa-angle-down{
+        font-size: 20px;
     }
 
-    #navDivEl a{
+    section.projects{
+        margin-top: 20px;
+    }
+    
+    .projectsGrid{
+        grid-template-columns: 30% 70%;
+    }
+    
+    .dots{
+        gap: 5px;
+    }
+    
+    .javascriptProjects h2{
+        font-size: 2rem;
+    }
+    
+    .design{
+        margin: 30px 10px;
+        font-size: 1rem;
+    }
+    
+    .viewAllBtn button{
+        padding: 10px;
+    }
+
+    .jsGrid{
+        display: block;
+    }
+
+    
+    .reactProjectsGrid{
+        display: block;
+    }
+    
+    .reactProjects h1{
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+    
+    #about p{
+        padding: 20px 30px;
+        font-size: 16px;
+    }
+      
+    #contact{
+        padding: 5rem 3rem;
+    }
+    
+    #contact h1{
+        font-size: 7rem;
+    }
+    
+    
+    #contact p{
         font-size: 12px;
     }
+    
+    #contact .socials{
+        margin-bottom: 20px;
+    }
+     
+    .navigateUp{
+        width: 40px;
+        height: 40px;
+    }
+
 }
 
 
-@media (min-width: 480px) and (max-width: 768px){
+@media (min-width: 420px) and (max-width: 768px){
 
     section.intro{
         padding: 100px 30px 50px;
