@@ -165,7 +165,79 @@
     }
 }
 
-@media (max-width: 600px ){
+@media (max-width:430px) {
+    .page{
+        padding: 50px 10px;
+    }
+
+    .navFlex.links{
+        gap: 20px;
+    }
+
+    #navDivEl a{
+        font-size: 10px;
+    }
+
+    .navFlex a{
+        font-size: 0.7rem;
+    }
+
+    #nametag{
+        font-size: 1.3rem;
+    }
+
+    .jsProjectsGrid{
+        display: block;
+    }
+
+    .reactProjectsGrid{
+        display: block;
+    }
+
+    .explore{
+        padding: 10px ;
+    }
+    
+    .explore h1{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+    
+    .explore p{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+    }
+
+    .eachJsProject{
+        height: 350px;
+        padding: 0.5rem;
+        margin-top: 20px;
+    }
+    
+    .eachJsProject h2{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .eachJsProject p{
+        line-height: normal;
+        font-size: 12px;
+    }
+    
+    .reactProjects{
+        margin: 30px 0px;
+    }
+
+    .eachReactProject{
+        height: 350px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 600px) {
     .page{
         padding: 50px 30px;
     }
@@ -227,10 +299,9 @@
         height: 350px;
         margin-top: 20px;
     }
-
 }
 
-@media (min-width: 601px ) and (max-width: 768px){
+@media (min-width: 600px) and (max-width: 768px){
     .page{
         padding: 50px 30px;
     }
